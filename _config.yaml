@@ -33,7 +33,9 @@ experience:
     to: Present
     description: 
       - I am an embedded SRE on a team dedicated to data processing and delivery of airline schedules. 
-      - I maintain and improve AWS services with Infrastructure as Code (IaC) and DevOps practices,
+      - I maintain and improve AWS services with Infrastructure as Code (IaC) and DevOps practices.
+      - "My duties and projects include but are not limited to:"
+    bullet_points:
       - create and maintain Terraform CI/CD pipelines on Gitlab CI to deploy infrastructure to AWS accounts.
       - I Migrated and modernized a CentOS and Ubuntu HPCC big data platform running on AWS EC2.
       - Reduced compression time by 84 percent by migrating from 7zip to pigz for a big data scripting platform.
@@ -45,56 +47,80 @@ experience:
       - Create jenkins pipeline and scripts for validation and automated testing of AWS container-based lambdas.
       - Migrated TeamCity server and agents from on-prem to a container based AWS environment
       - Created and improved cross account IAM policies and roles; implemented AWS SSM to improve security
-
-    
     link: https://www.cirium.com/
   item6:
-    position: Community Leader
-    company: Codeando México
-    from: September 2019
-    to: February 2021
-    description: >
-      Codeando México mainly focuses on executing activities that connect society and governments, the usage of technologies and internet-based solutions for civic purposes.
-    link: http://codeandomexico.org/
+    position: Senior Cloud Systems Engineer
+    company: Wellspring Worldwide
+    from: April 2020
+    to: December 2021
+    description:
+    - I performed as a senior system engineer who worked across the organization to maintain and deploy data center and AWS resources
+    bullet_points:
+    - "Managed and modernized on-premise and AWS cloud infrastructure, including: LDAP, DNS, SFTP server and users, client data, client platform and remote sites." 
+    - Improved reliability of CentOS and RHEL OS with Puppet, Ansible and Terraform. 
+    - Improved team morale by mentoring junior and mid-level engineers.
+    - Worked closely with platform development teams to deploy new software releases.
+    - Improved the -eam’s deployment processes by creating and modifying Jenkins jobs, Puppet server configuration and documenting standard operating processes
+    - "Managed AWS infrastructure: EC2, S3, RDS, ELB/ALB, WAF, SSM and Session Manager."
+    - Improved security by performing CentOS 6 to 7 migration and on-prem KVM to AWS migration. 
+    - Created AWS CLI scripts to gather and compliment data for FedRAMP and ISO audits, participate in audits.
+    - Created and deployed ansible playbooks to upgrade remote customer servers from RHEL 6 to RHEL 7. 
+    link: https://wellspringworldwide.com/
   item5:
-    position: Open Data Coordinator
-    company: LAB León / General Direction of Innovation León
-    from: July 2018
-    to: September 2019
-    description: >
-      Pushing efforts to open (and work with) data in the city. Helping the city with trainings for digital jobs, including programming courses on Python and web development.
+    position: Senior DevOps Engineer
+    company: MORNINGSTAR (contract, MRP)
+    from: Dec 2019
+    to: March 2020
+    description:
+    - I performed as a devops engineer who supported and deployed software for a FinOps team
+    bullet_points:
+    - Created Dockerfiles and Docker Compose files with CI Jenkins pipelines to deploy Vue/Nuxt.js and Node.js Docker images via AWS CodePipeLine/Codecommit to AWS ECR.
+    - Built internal Workplace tools as Docker image and deployed to AWS ECS Fargate containers.
+    - Created a Jenkins CI/CD multibranch pipeline to deploy an AWS Application Load Balancer and Cloudfront infrastructure. 
+    - Created and modified AWS Cloudformation templates in yaml and json to deploy AWS resources such as Cloudfront distributions, IAM roles, Codepipeline, Codebuild, Load Balancers, and S3 buckets. 
+    - Collaborated with various teams to migrate an AWS non-prod account to a SOC compliant account
+    link: https://morningstar.com
   item4:
-    position: AI Consultant
-    company: NULLSEC (Startup)
-    from: July 2019
-    to: September 2019
-    description: >
-      Working as an AI consultant for NULLSEC, a computer security company focused on ethical hacking. Particularly helping in the development of NullRansom, an analyzer-debugger software with the purpose of filtering TCP protocol requests, preventing preventively being targeted by malware and ransomware viruses.
-    link: http://www.nullsec.site
+    position: DevOps Engineer
+    company: TRUEBLUE
+    from: January 2019
+    to: Novermber 2019
+    description: 
+    - I supported a decentralized development team in the US, South America, and a remote DevOps team in Tacoma Washington to support the PeopleScout Affinix project.
+    bullet_points:
+    - Managed incidents with Pagerduty and checkmk as part of a two person on-call rotation.
+    - Deployed Mulesoft, Docker and Flyway weekly.
+    - Built and maintained pipelines for DEV, QA and Production CI/CD deployments.
+    - Migrated Okta to Auth0 by creating python3 modules and with JSON and Terraform to automate deployment of Auth0 tenants in a multi-tenant scenario.
+    - Created python3 scripts to automate multi-language PDF upload to S3 buckets.
+    - Created jenkins pipelines and leveraged source control to push/pull files to a CRM, copy artifacts from SFTP server (Paramiko) and deploy to AWS S3 with boto3.
+    - Leveraged Terraform and AWS boto3 cloudformation to deploy Lambda, API Gateway, S3, SQS/SNS, RDS, PostgreSQL, secrets manager, and parameter store resources.
+    - Managed and deployed Docker and Artifactory images.
+    - Created bash (AWS CLI) and python boto3 scripts to manage AWS resources.
+    link: https://trueblue.com
   item3:
-    position: Lead ML Engineer
-    company: Omdena
-    from: May 2019
-    to: July 2019
-    description: >
-      Lead ML engineer in Omdena's collaborative tree identification challenge to prevent fire outbursts. Contributed with the models developed and the data preprocessing (we develped a Python package for it).
-    link: https://medium.com/omdena/building-ai-for-good-by-the-people-for-the-people-d98ad78b5001
-  item2:
-    position: Jr. Python Software Developer
-    company: CloudLinux
-    from: February 2019
-    to: May 2019
-    description: >
-      In charge of building automation solutions with Python. The tech stack used includes Scrapy, Luigi, requests, and MongoDB.
-  item1:
-    position: AI Research Assistant
-    company: Research Center in Mathematics (CIMAT A.C.)
-    from: February 2018
-    to: February 2019
-    description: >
-      On charge of doing research and building neural networks for computer vision problems, focused on applications and solutions for real industry issues. Deployed trained models to production.
-  reference: https://rodolfoferro.xyz/resume/
-
+    position: DevOps Engineer
+    company: NextCapital Group
+    from: 2013
+    to: 2018
+    description:
+    - I performed as a system administrator and devops engineer who supported a full stack enterprise web application. The organization was acquired by Goldman Sachs in 2022
+    bullet_points:
+    - Performed AWS deployments and supported a full stack enterprise web application. 
+    - Maintained and improved AWS VPC, security groups, S3, SQS/SNS, ALB/ELB, autoscaling groups, AWS IAM, MySQL, and MongoDB.
+    - Created bash and python boto3 scripts to manage AWS resources, and improved our security stance by creating AWS bastion gateways with bash scripts to manage remote user accounts and SSH keys. 
+    - Managed Chef Server roles and recipes and configured deployment tools. 
+    - Installed Blaze Portfolio windows IIS servers and RDS MSSQL databases.
+    - Created WinSCP, PowerShell and bat scripts to transfer files and and from partner sites and AWS S3
+    - Installed, maintained and improved CrushFTP server including users, jobs, and schedules.  
+    - Assisted with security audit and vulnerabilities; create REST API scripts and database queries
+    - maintained and improved Jenkins server and TeamCity build servers and supported internal developers. 
+    - Purchased, installed, maintained, and upgraded Apple company hardware
+    - Created DeployStudio server for deployment of Apple machines
+    - Installed and managed 75 Linux and Windows virtual machines on VMware ESXi. Performed daily customer support for NextCapital customers
+    - Created Zendesk customer service portal to support external customers and linked to Pivotal Tracker
+    - Configured automations, managed Google and GitHub organization accounts, and ran bi-weekly software deployments to a Ruby On Rails stack. 
+    link:  https://am.gs.com/en-int/advisors/products/defined-contribution
 
 # Education section
 education:

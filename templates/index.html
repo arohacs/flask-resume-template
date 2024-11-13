@@ -126,12 +126,22 @@
           <div class="resume-content">
             <h3 class="mb-0">{{ item.position }}</h3>
             <div class="subheading mb-3">{{ item.company }}</div>
-              {% for item in item.description %}
-                <p>{{ item }}</p>          {% endfor %}
+              {% for __ in item.description %}
+                <div class="job_byline">{{ __ }}</div>
+              {% endfor %}
+              </br>
+              {%+ filter indent(width=2) %}
+              {% for _ in item.bullet_points %}
+              <ul class="list-group"></ul>
+                <li class="list-group-item border-0">{{ _ }}</li>
+              </ul>
+              {% endfor %}
+              {%+ endfilter %}
           {% if item.link %}
           <p><a href="{{ item.link }}">Reference link.</a></p>
           {% endif %}
           </div>
+
           <div class="resume-date text-md-right">
             <span class="text-primary">{{ item.from }} - {{ item.to }}</span>
           </div>
