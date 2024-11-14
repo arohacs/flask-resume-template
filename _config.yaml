@@ -149,6 +149,9 @@ tools:
   - linux
   - terminal
 
+# Certifications section
+certifications:
+  - CompTIA A+
 
 extra_skills:
   - Python, Ruby, Bash, Powershell, HTML, XML, JSON, YAML, CSS, SQL
